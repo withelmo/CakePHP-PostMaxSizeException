@@ -4,7 +4,7 @@ App::uses('Component', 'Controller');
 App::uses('PostMaxSizeChecker', 'PostMaxSizeException.Lib');
 App::uses('RequestEntityTooLargeException', 'PostMaxSizeException.Error');
 
-class CheckComponent extends Component {
+class PostMaxSizeComponent extends Component {
 
     /**
      * initialize
